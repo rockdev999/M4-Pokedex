@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 header {
   background-color: rgba(128, 128, 128, 0.529);
   height: 10%;
@@ -20,7 +19,5 @@ header {
 .logo-name {
   margin: 10px;
   font-family: "Press Start 2P", cursive;
-  /* font-family: "VT323", monospace; */
-  /* font-family: "Roboto", sans-serif; */
   font-size: xx-large;
 }
