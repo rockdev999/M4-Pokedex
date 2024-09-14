@@ -18,35 +18,6 @@ BUCAR POKEMON por nombre
 
 MUESTRE POKEMON EN LA CARD
 
-MODAL MAS DETALLE
-
-{
-"abilities": [
-"Overgrow"
-],
-"detailPageURL": "/us/pokedex/ivysaur",
-"weight": 28.7,
-"weakness": [
-"Fire",
-"Psychic",
-"Flying",
-"Ice"
-],
-"number": "002",
-"height": 39,
-"collectibles_slug": "ivysaur",
-"featured": "true",
-"slug": "ivysaur",
-"name": "Ivysaur",
-"ThumbnailAltText": "Ivysaur",
-"ThumbnailImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png",
-"id": 2,
-"type": [
-"grass",
-"poison"
-]
-}
-
----
+## MODAL MAS DETALLE
 
 MOSTRAR TODAS LAS CARDS Y APRETAR EN UNA Y MOSTRAR INFORMACION con el find() mediante id
