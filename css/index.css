@@ -1,5 +1,6 @@
 @import url("./componets/header.css");
 @import url("./componets/modal.css");
+@import url("./componets/cards.css");
 * {
   margin: 0px;
   padding: 0px;
@@ -71,12 +72,4 @@ body {
 .btn:active {
   background-color: darkgray;
   transform: scale(0.95);
-}
-.cards {
-  width: 100%;
-  display: block;
-}
-.content-card {
-  background-color: rgba(192, 192, 192, 0.63);
-  width: 200px;
 }
