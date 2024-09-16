@@ -4,8 +4,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  /* font-family: "VT323", monospace; */
-  /* font-family: "Roboto", sans-serif; */
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
@@ -44,7 +42,6 @@ body {
   background-color: silver;
   font-size: larger;
   margin: 0px;
-  /* height: 30px; */
   width: 70%;
   border: 0px none;
   margin: auto;
@@ -52,8 +49,6 @@ body {
 }
 .input:focus {
   outline: none;
-  /* border: none; */
-  /* box-shadow: none; */
 }
 .btn {
   background-color: silver;
@@ -68,7 +63,6 @@ body {
   width: 25%;
   height: 100%;
   margin: auto;
-  /* transition: background-color 0.3s, transform 0.1s; */
 }
 .btn:active {
   background-color: darkgray;

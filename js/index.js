@@ -1,6 +1,6 @@
 import Pokemon from "./cardPokemon.js";
 
-const apiURL = "../data/pokemons.json";
+const apiURL = "../pokemons.json";
 
 function callBack(result) {
   return result.json();
@@ -18,7 +18,6 @@ async function obtenerDatos() {
       .then(callBack)
       .then(CallBack2)
       .catch(mistake);
-    // const data = await response.json();
     return response;
   } catch (error) {
     console.log(error);
