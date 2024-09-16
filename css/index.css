@@ -28,7 +28,8 @@ body {
   margin: 15px;
   height: 100px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
 }
 .search {
@@ -67,9 +68,23 @@ body {
   width: 25%;
   height: 100%;
   margin: auto;
-  transition: background-color 0.3s, transform 0.1s;
+  /* transition: background-color 0.3s, transform 0.1s; */
 }
 .btn:active {
+  background-color: darkgray;
+  transform: scale(0.95);
+}
+.show {
+  background-color: silver;
+  cursor: pointer;
+  font-size: large;
+  background-color: silver;
+  padding: 15px;
+  border: 3px solid;
+  border-color: gray;
+  border-radius: 25px;
+}
+.show:active {
   background-color: darkgray;
   transform: scale(0.95);
 }
